@@ -2,7 +2,7 @@ name: Push on test branch
 on:
   push:
     branches:
-      - test
+      - feat/test
 jobs:
   test:
     runs-on: ubuntu-latest
